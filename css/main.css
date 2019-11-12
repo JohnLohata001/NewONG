@@ -1,0 +1,358 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: silver;
+    font-size: 90%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.top-head{
+    height: 10px;
+    background:rgb(68, 67, 67); 
+}
+.title-logo{
+    min-height: 60px;
+    padding: 10px;
+    width: 95%;
+    margin: auto;
+}
+.logo{
+    float: left;
+    width: 14%;
+    margin-right: 30px;
+}
+.logo img{
+    position: relative;
+    top: 10px;
+}
+.title-page{
+    padding: 20px;
+    width: 95%;
+    margin: auto;
+    text-align: center;
+    border-top: solid 1px rgb(126, 125, 125);
+}
+.title-page h3{
+    padding: 0;
+    margin: 0.5%;
+    text-align: center;
+    /* padding-right: 150px; */
+    color: #035e92;
+    font-style: italic;
+    font-size: 150%;
+
+}
+.title-page h4{
+    padding: 0;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;  
+    text-align: center;  
+    color: rgb(226, 3, 3);
+    font-style: italic;
+    width: 80%;
+    padding-left: 50px;
+}
+.title-page h2{
+    padding: 0;
+    margin: 0 0 -10px;
+    font-family: Arial, Helvetica, sans-serif;  
+    /* text-align: center;   */
+    font-style: italic;
+    /* padding-right: 150px; */
+}
+.container{
+    width: 70%;
+    min-height: 600px;
+    background: white;
+    margin:10px auto;
+    border-radius: 10px;
+    overflow: hidden;
+    
+}
+header .menu{
+    height: 50px;
+    background: rgb(68, 67, 67);    
+}
+.menu ul{
+    list-style: none;
+    line-height: 30px;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+.menu ul li{
+    float: left;
+    margin: 1% -0.5%;
+    padding:0 3% ;
+
+}
+.line-menu{
+    transform: rotate(90deg);
+    width: 80px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: -40px;
+    color: black;
+    background-color: black;
+    font-size: 5px;
+}
+.menu ul li a{
+    padding: 20% 52%;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 100%;
+    color: white;
+}
+.menu ul li a:hover{
+    background-color: silver;
+    color: black;
+}
+
+/* =========== start content=============== */
+
+
+.content-body{
+    min-height: 600px;
+    padding: 1%;
+    overflow: hidden;
+}
+.content-body section{
+    width: 67%;
+    min-height: 200px;
+    padding-bottom: 50px;
+    float: left;
+    overflow: hidden;
+}
+.content-body nav{
+    width: 30%;
+    min-height: 600px;
+    background-color: rgba(243, 242, 242, 0.333);
+    float: right;
+}
+.clear{
+    clear: both;
+}
+/* ================== container content ============== */
+.slider{
+    width: 100%;;
+    background: #5555;
+    border-top: solid 7px rgb(68, 67, 67); 
+    border-bottom: solid 7px rgb(68, 67, 67); 
+}
+.slider img{
+    width: 100%;
+}
+.info{
+    width: 100%;
+    background-color:rgb(68, 67, 67);  
+    min-height: 50px;
+    color: white;
+    margin-top: 1%;
+    padding: 10px;
+}
+.info h1, .info h4{
+   padding: 0;
+   margin: 0;
+   text-align: center;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.info p{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.details{
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    min-height: 100px;
+    text-align: justify;
+    padding-bottom: 10px;
+    background-color: rgba(247, 245, 245, 0.333);
+    overflow: hidden;
+    
+}
+.details_first{
+    float: left;
+    width: 27%;
+    margin: 8px;
+    padding: 5px;
+    color: rgb(107, 108, 109);
+    text-align: left;
+}
+.details_first h3{
+    color: #035e92;
+}
+.details_first a{
+    min-width:5%;
+    background: #035e92;
+    color: white;
+    padding: 7px 15px;
+    position: relative;
+    border-radius: 5px;
+    top: 0px;
+    text-decoration: none;
+}
+.details_first a:hover{
+    min-width:5%;
+    background: #249be0;
+}
+/* .details_first #a_info{
+    position: relative;
+    border-radius: 5px;
+    top: 50px;
+} */
+.imgs ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background: white;
+}
+.imgs ul li{
+    width: 45%;
+    float: left;
+    padding:0 10px ;
+    /* background-color: #c52902; */
+}
+.imgs ul li h4{
+     border-top: #035e92 1px dotted;
+     border-bottom: #035e92 1px dotted;
+     margin-bottom: 4px;
+     padding: 5px 0;
+}
+.imgs ul li img{
+    width: 100%;
+    border-top: solid 8px #035e92;
+    border-bottom: solid 8px #921903;
+}
+.imgs ul li p{
+   padding: 0;
+   margin: 0;
+}
+nav{
+    padding: 1%;
+}
+nav .news_fifadh1 h3{
+    padding:4px;
+    margin: 0;
+    margin-top: -5px;
+    color: #4f7388;
+    border-bottom: dotted 1px #4f7388;
+    border-top: dotted 1px #4f7388;
+}
+nav .news_fifadh1 h4{
+    padding:5px 0;
+    margin: 0;
+    color: #c52902;
+    border-bottom: 1px dotted #c52902; 
+    border-top: 1px dotted #c52902; 
+    text-align: center;
+    margin-bottom: 4px;
+}
+nav .news_fifadh1 img{
+    width: 100%;
+    padding-top: 5px;
+}
+nav .news_fifadh1 p{
+    margin-top: 0;
+    padding-top: 0;
+}
+
+/* ============== end content ======================== */
+
+footer{
+    height: 80px;
+    border-top: silver 5px solid;
+    background: rgb(68, 67, 67); 
+    
+}
+
+
+/* ================== end footer ======================== */
+#marqueur{
+    background: rgb(68, 67, 67); 
+    padding:10px;
+    margin: auto;
+    color: white;
+    width:90%;
+    font-size: 16px;
+    
+}
+
+@media screen and (max-width:1100px){
+    body{
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+    .container{
+        width: 97%;
+       margin: auto;
+       padding: 0;
+       border-radius: 0px;
+    }
+    
+
+}
+@media screen and (max-width:600px){
+    body{
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+    header{
+        padding-top:0px;
+        background:#ffea56;
+
+    }
+    .title-logo{
+        min-height: 20px;
+        padding: 0;
+    }
+    .title-page h4{
+        min-height: 600px;
+    }
+    .title-page h4{
+        display: none;
+        text-align: center;
+    }
+.title-page h2{
+   display: block; 
+   text-align: center;
+   padding: 0;
+   margin: 0;
+   color: rgb(221, 5, 5);
+}
+.title-page h3{
+    text-align: center;
+    width: 100%;
+}
+    .logo{
+        display:none;
+    }
+    .menu ul{
+        display: none;
+    }
+    .content-body section{
+        width: 100%;
+        min-height: 600px;
+        /* background-color: #5555;   */
+        float: none;  
+    }
+    .content-body nav{
+        width: 100%;
+        min-height: 600px;
+        background-color: rgba(199, 196, 196, 0.333);
+        float: none;
+    }
+    .details_first{
+        float: none;
+        width: 98%;
+        margin: 8px;
+        padding: 5px;
+        /* border-right: solid 1px silver; */
+        overflow: hidden;
+    }
+    
+
+}
